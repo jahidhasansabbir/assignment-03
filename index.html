@@ -31,24 +31,89 @@
     </script>
     <!-- Common styles -->
     <style>
-        .btn-bg{
-            background-color:  #ABEF5F;
+        .btn-bg {
+            background-color: #ABEF5F;
         }
-        .text-Primary{
-            color:#212121;
+        .lg-container{
+            width: 81.25%;
+            margin-right: auto;
+            margin-left: auto;
         }
-        .text-secondary{
-            color:#494949;
+        .sm-container{
+            width: 90%;
+            margin-right: auto;
+            margin-left: auto;
         }
-        .text-tertiary{
-            color:#737373;
+        .text-Pri{
+            color: #212121;
+        }
+
+        .text-sec{
+            color: #494949;
+        }
+
+        .text-ter{
+            color: #737373;
         }
     </style>
     <title>Rinterio</title>
 </head>
 
 <body class="font-manrope">
-    
+    <header class="mt-8 md:mt-12">
+        <!-- Navbar -->
+        <div class="flex justify-between bg-base-100 sm-container md:lg-container">
+            <!-- Site Name -->
+            <div>
+                <div class="flex items-center gap-2">
+                    <!--Logo -->
+                    <div class="btn-bg rounded-full  p-[10px] w-8 h-8 flex items-center justify-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none">
+                            <path d="M12.007 2.05932L1.0033 13.0557" stroke="#1C1C1C" stroke-width="1.5"
+                                stroke-linecap="round" />
+                            <path
+                                d="M6.00728 1.18866C6.00728 1.18866 11.6409 0.715645 12.4957 1.57084C13.3503 2.42604 12.8734 8.05944 12.8734 8.05944"
+                                stroke="#1C1C1C" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                    </div>
+                    <!-- Text -->
+                    <div class="text-[28px] md:text-[32px] font-extrabold">Rinterio</div>
+                </div>
+            </div>
+            <!-- Menu items -->
+            <div class="navbar-center hidden lg:flex">
+                <ul class="menu menu-horizontal px-1">
+                    <li><a class="hover:text-sec hover:font-extrabold text-ter">Home</a></li>
+                    <li><a class="hover:text-sec hover:font-extrabold text-ter">Services</a></li>
+                    <li><a class="hover:text-sec hover:font-extrabold text-ter">Portfolio</a></li>
+                    <li><a class="hover:text-sec hover:font-extrabold text-ter">Blogs</a></li>
+                    <li><a class="hover:text-sec hover:font-extrabold text-ter">Contact Us</a></li>
+                </ul>
+            </div>
+            <!-- Menu-bars -->
+            <div>
+                <div class="dropdown">
+                    <div tabindex="0" role="button" class="btn btn-ghost pr-0 lg:hidden">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M4 6h16M4 12h8m-8 6h16" />
+                        </svg>
+                    </div>
+                    <a class="btn btn-bg hidden lg:flex rounded-full"><span class="text-xl font-extrabold">Book Consult</span>
+                        <div class="bg-black rounded-full  p-[10px] w-8 h-8 flex items-center justify-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="" width="14" height="14" viewBox="0 0 14 14" fill="none">
+                                <path d="M12.007 2.05932L1.0033 13.0557" stroke="#fff" stroke-width="1.5"
+                                    stroke-linecap="round" />
+                                <path
+                                    d="M6.00728 1.18866C6.00728 1.18866 11.6409 0.715645 12.4957 1.57084C13.3503 2.42604 12.8734 8.05944 12.8734 8.05944"
+                                    stroke="#fff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                        </div></a>
+                </div>
+            </div>
+        </div>
+    </header>
 </body>
 
 </html>
