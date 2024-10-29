@@ -34,25 +34,32 @@
         .btn-bg {
             background-color: #ABEF5F;
         }
-        .lg-container{
+
+        .btn-bg-sec {
+            background-color: #abef5f80;
+        }
+
+        .lg-container {
             width: 81.25%;
             margin-right: auto;
             margin-left: auto;
         }
-        .sm-container{
+
+        .sm-container {
             width: 90%;
             margin-right: auto;
             margin-left: auto;
         }
-        .text-Pri{
+
+        .text-Pri {
             color: #212121;
         }
 
-        .text-sec{
+        .text-sec {
             color: #494949;
         }
 
-        .text-ter{
+        .text-ter {
             color: #737373;
         }
     </style>
@@ -60,9 +67,9 @@
 </head>
 
 <body class="font-manrope">
-    <header class="mt-8 md:mt-12">
+    <header class="mt-8 md:mt-12  sm-container md:lg-container">
         <!-- Navbar -->
-        <div class="flex justify-between bg-base-100 sm-container md:lg-container">
+        <section class="flex justify-between bg-base-100">
             <!-- Site Name -->
             <div>
                 <div class="flex items-center gap-2">
@@ -100,19 +107,49 @@
                                 d="M4 6h16M4 12h8m-8 6h16" />
                         </svg>
                     </div>
-                    <a class="btn btn-bg hidden lg:flex rounded-full"><span class="text-xl font-extrabold">Book Consult</span>
+                    <!-- Button -->
+                    <a class="btn btn-bg hidden lg:flex rounded-full"><span class="text-xl font-extrabold">Book
+                            Consult</span>
                         <div class="bg-black rounded-full  p-[10px] w-8 h-8 flex items-center justify-center">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="" width="14" height="14" viewBox="0 0 14 14" fill="none">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="" width="14" height="14" viewBox="0 0 14 14"
+                                fill="none">
                                 <path d="M12.007 2.05932L1.0033 13.0557" stroke="#fff" stroke-width="1.5"
                                     stroke-linecap="round" />
                                 <path
                                     d="M6.00728 1.18866C6.00728 1.18866 11.6409 0.715645 12.4957 1.57084C13.3503 2.42604 12.8734 8.05944 12.8734 8.05944"
                                     stroke="#fff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
                             </svg>
-                        </div></a>
+                        </div>
+                    </a>
                 </div>
             </div>
-        </div>
+        </section>
+        <!-- Hero section -->
+        <section class="hero">
+            <div class="hero-content text-center flex-col">
+                <img src="assets/banner.png" alt="">
+                <div class="w-full lg:w-4/5">
+                    <h1 class="text-2xl md:text-6xl font-extrabold text-pri">A barn house of this design has a striking
+                        appearance</h1>
+                    <p class="py-6 text-sm text-sec font-medium">
+                        Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem
+                        quasi. In deleniti eaque aut repudiandae et a id nisi.
+                    </p>
+                </div>
+                <a class="btn btn-bg-sec rounded-full"><span class="text-xl font-bold">View Details</span>
+                <div class="btn-bg rounded-full  p-[10px] w-8 h-8 flex items-center justify-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="" width="14" height="14" viewBox="0 0 14 14"
+                        fill="none">
+                        <path d="M12.007 2.05932L1.0033 13.0557" stroke="#212121" stroke-width="1.5"
+                            stroke-linecap="round" />
+                        <path
+                            d="M6.00728 1.18866C6.00728 1.18866 11.6409 0.715645 12.4957 1.57084C13.3503 2.42604 12.8734 8.05944 12.8734 8.05944"
+                            stroke="#212121" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                </div>
+            </a>
+            </div>
+        </section>
     </header>
 </body>
 
