@@ -303,67 +303,79 @@
                     accents.
             </div>
             <div>
-                <div class="grid grid-cols-1 md:grid-rows-2 gap-6 md:grid-cols-4">
-                    <!-- card-1 -->
-                    <div class="p-5 md:p-6 md:col-span-3 border items-center rounded-2xl flex flex-col md:flex-row gap-6">
-                        <div class="md:w-2/5 h-full">
-                            <img class="w-full h-full" src="assets/img1.png" alt="">
+                <!-- Card container -->
+                <div>
+                    <!-- Card 1st row -->
+                    <div class="grid grid-cols-1 md:grid-rows-1 gap-6 md:grid-cols-12 mb-6">
+                        <!-- card-1 -->
+                        <div class="p-5 md:p-6 md:col-span-8 border items-center rounded-2xl flex flex-col md:flex-row gap-6">
+                            <div class="w-full md:w-4/5 h-full">
+                                <img class="w-full h-full" src="assets/img1.png" alt="">
+                            </div>
+                            <div class="w-full my-auto">
+                                <h2 class="text-sec text-2xl font-extrabold mb-1 w-full">Commercial</h2>
+                                <p class="text-ter text-base md:text-sm font-medium">The barn house captivates
+                                    with its blend of rustic charm and modern.</p>
+                                <a class="flex gap-3 mt-5 rounded-full"><span class="text-xl font-bold">View
+                                        Details</span>
+                                    <div class="btn-bg rounded-full  p-[10px] w-8 h-8 flex items-center justify-center">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="" width="14" height="14"
+                                            viewBox="0 0 14 14" fill="none">
+                                            <path d="M12.007 2.05932L1.0033 13.0557" stroke="#212121" stroke-width="1.5"
+                                                stroke-linecap="round" />
+                                            <path
+                                                d="M6.00728 1.18866C6.00728 1.18866 11.6409 0.715645 12.4957 1.57084C13.3503 2.42604 12.8734 8.05944 12.8734 8.05944"
+                                                stroke="#212121" stroke-width="1.5" stroke-linecap="round"
+                                                stroke-linejoin="round" />
+                                        </svg>
+                                    </div>
+                                </a>
+                            </div>
                         </div>
-                        <div class="my-auto">
-                            <h2 class="text-sec text-2xl font-extrabold mb-1 w-full">Commercial</h2>
-                            <p class="text-ter text-base md:text-sm font-medium">The barn house captivates
-                                with its blend of rustic charm and modern.</p>
-                            <a class="flex gap-3 mt-5 rounded-full"><span class="text-xl font-bold">View Details</span>
-                                <div class="btn-bg rounded-full  p-[10px] w-8 h-8 flex items-center justify-center">
-                                    <svg xmlns="http://www.w3.org/2000/svg" class="" width="14" height="14"
-                                        viewBox="0 0 14 14" fill="none">
-                                        <path d="M12.007 2.05932L1.0033 13.0557" stroke="#212121" stroke-width="1.5"
-                                            stroke-linecap="round" />
-                                        <path
-                                            d="M6.00728 1.18866C6.00728 1.18866 11.6409 0.715645 12.4957 1.57084C13.3503 2.42604 12.8734 8.05944 12.8734 8.05944"
-                                            stroke="#212121" stroke-width="1.5" stroke-linecap="round"
-                                            stroke-linejoin="round" />
-                                    </svg>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-                    <!-- Card-2 -->
-                    <div class="p-5 md:p-6 md:col-span-1 border rounded-2xl">
-                        <img class="w-full h-full" src="assets/img2.png" alt="">
-                    </div>
-
-                    <!-- Card-3 -->
-                    <div class="p-5 md:p-6 md:col-span-1 border rounded-2xl ">
-                        <img class="w-full h-full" src="assets/img3.png" alt="">
-                    </div>
-                    <!-- card-4 -->
-                    <div class="p-5 md:p-6 md:col-span-2 border rounded-2xl flex flex-col md:flex-row gap-6">
-                        <div class="md:w-1/2">
-                            <img class="w-full h-full" src="assets/img4.png" alt="">
-                        </div>
-                        <div class="my-auto md:w-1/2">
-                            <h2 class="text-sec text-2xl font-extrabold mb-1 w-full">Commercial</h2>
-                            <p class="text-ter text-base md:text-sm font-medium">The barn house captivates
-                                with its blend of rustic charm and modern.</p>
-                            <a class="flex gap-3 mt-5 rounded-full"><span class="text-xl font-bold">View Details</span>
-                                <div class="btn-bg rounded-full  p-[10px] w-8 h-8 flex items-center justify-center">
-                                    <svg xmlns="http://www.w3.org/2000/svg" class="" width="14" height="14"
-                                        viewBox="0 0 14 14" fill="none">
-                                        <path d="M12.007 2.05932L1.0033 13.0557" stroke="#212121" stroke-width="1.5"
-                                            stroke-linecap="round" />
-                                        <path
-                                            d="M6.00728 1.18866C6.00728 1.18866 11.6409 0.715645 12.4957 1.57084C13.3503 2.42604 12.8734 8.05944 12.8734 8.05944"
-                                            stroke="#212121" stroke-width="1.5" stroke-linecap="round"
-                                            stroke-linejoin="round" />
-                                    </svg>
-                                </div>
-                            </a>
+                        <!-- Card-2 -->
+                        <div class="p-5 md:p-6 md:col-span-4 border rounded-2xl">
+                            <img class="w-full h-full" src="assets/img2.png" alt="">
                         </div>
                     </div>
-                    <!-- Card-5 -->
-                    <div class="p-5 md:p-6 md:col-span-1 border rounded-2xl">
+                    <!-- Extra card -->
+                    <div class="p-5 md:p-6 md:col-span-1 md:hidden border rounded-2xl mb-6">
                         <img class="w-full h-full" src="assets/img5.png" alt="">
+                    </div>
+                    <!-- Card 2nd row -->
+                    <div  class="grid grid-cols-1 md:grid-rows-1 gap-6 md:grid-cols-4">
+                        <!-- Card-3 -->
+                        <div class="p-5 md:p-6 md:col-span-1 border rounded-2xl">
+                            <img class="w-full h-full" src="assets/img3.png" alt="">
+                        </div>
+                        <!-- card-4 -->
+                        <div class="p-5 md:p-6 md:col-span-2 border rounded-2xl flex flex-col md:flex-row gap-6  order-first md:order-none">
+                            <div class="md:w-1/2">
+                                <img class="w-full h-full" src="assets/img4.png" alt="">
+                            </div>
+                            <div class="my-auto md:w-1/2">
+                                <h2 class="text-sec text-2xl font-extrabold mb-1 w-full">Commercial</h2>
+                                <p class="text-ter text-base md:text-sm font-medium">The barn house captivates
+                                    with its blend of rustic charm and modern.</p>
+                                <a class="flex gap-3 mt-5 rounded-full"><span class="text-xl font-bold">View
+                                        Details</span>
+                                    <div class="btn-bg rounded-full  p-[10px] w-8 h-8 flex items-center justify-center">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="" width="14" height="14"
+                                            viewBox="0 0 14 14" fill="none">
+                                            <path d="M12.007 2.05932L1.0033 13.0557" stroke="#212121" stroke-width="1.5"
+                                                stroke-linecap="round" />
+                                            <path
+                                                d="M6.00728 1.18866C6.00728 1.18866 11.6409 0.715645 12.4957 1.57084C13.3503 2.42604 12.8734 8.05944 12.8734 8.05944"
+                                                stroke="#212121" stroke-width="1.5" stroke-linecap="round"
+                                                stroke-linejoin="round" />
+                                        </svg>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <!-- Card-5 -->
+                        <div class="p-5 md:p-6 md:col-span-1 border rounded-2xl">
+                            <img class="w-full h-full" src="assets/img5.png" alt="">
+                        </div>
                     </div>
                 </div>
             </div>
